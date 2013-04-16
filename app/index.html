@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="scripts/vendor/modernizr.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+
+        <div class="hero-unit">
+            <h1>What's that in Thatchers?</h1>
+            <form action="/" method="post">
+                £ <input type="text" name="cost" id="cost">
+                <input type="submit" value="Calculate!" id="calculate" class="submit">
+            </form>
+            
+            <div class="out"></div>
+        </div>
+
+       <div class="panel">
+           <h2>Why not try...</h2>
+           <ul>
+               <li><a href="#" data-cost="0.59">A pint of milk?</a></li>
+               <li><a href="#" data-cost="36789">A teacher's annual salary?</a></li>
+               <li><a href="#" data-cost="3284">The cost of an average funeral?</a></li>
+               <li><a href="#" data-cost="32000000">The cost of the monarchy in one year?</a></li>
+           </ul>
+       </div>
+
+        <div class="footer">
+            <p>Based on a cost of 
+                <a href="http://www.guardian.co.uk/news/datablog/2013/apr/16/margaret-thatcher-funeral-10-million" 
+                title="£10 million cost of Thatcher's funeral" target="_blank">£10 million for Thatcher's funeral</a>.</p>
+            <p>Other comparisons 
+                <a href="https://docs.google.com/spreadsheet/ccc?key=0AonYZs4MzlZbdEp0NUhjMnZ1UEVXWlFqeFgtUWc3cWc#gid=0" title="Guardian spreadsheet" target="_blank">
+                sourced</a> from the 
+                <a href="http://www.guardian.co.uk/news/datablog/2013/apr/16/margaret-thatcher-funeral-10-million" 
+                title="£10 million cost of Thatcher's funeral" target="_blank">
+                Guardian's datablog</a>.</p>
+        </div>
+    </div>
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        
+        <script src='/scripts/main.js'></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
